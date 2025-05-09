@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "vault",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Game.sol": "SelfDestructSender"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Game.sol": {
+			"keccak256": "0xaee0fc49238b6a56dc51b65f4b5b3dad561d082439cd87de8b6729294ef20103",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8159788bfa0207d5fd81a7f95edf745257981c13c3701a62e03844a3c74477ca",
+				"dweb:/ipfs/QmTkSfA9bPjacs3TJo3Zj2kQ3WsHezVdiaQgGVRhPfh2Te"
+			]
+		}
+	},
+	"version": 1
+}
